@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv bash
+
+sed -e "s/{{ZABBIX_TRAPPER}}/$ZABBIX_TRAPPER/g" -i $MQTTWARNINI
