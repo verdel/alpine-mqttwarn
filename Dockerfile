@@ -1,7 +1,7 @@
 FROM verdel/alpine-base:latest
 MAINTAINER Vadim Aleksandrov <valeksandrov@me.com>
 
-ENV MQTTWARNINI /etc/mqttwarn
+ENV MQTTWARNINI /etc/mqttwarn/mqttwarn.ini
 
 # Install transmission and pushnotify
 RUN apk --update add --virtual build-dependencies git \
