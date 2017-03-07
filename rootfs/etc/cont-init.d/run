@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv bash
+#!/usr/bin/with-contenv sh
 
 sed -e "s/{{ZABBIX_TRAPPER}}/$ZABBIX_TRAPPER/g" -i $MQTTWARNINI
 sed -e "s/{{MQTT_SERVER}}/$MQTT_SERVER/g" -i $MQTTWARNINI
